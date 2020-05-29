@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/philippeBron/discord-bot#readme",
   "dependencies": {
+    "discord.js": "^12.2.0",
     "dotenv": "^8.2.0"
   }
 }

@@ -1,6 +1,7 @@
-require('dotenv').config()
+require('dotenv').config();
+const Discord = require('discord.js');
+const bot = new Discord.Client();
 
-const botName = process.env.BOT_NAME
+const TOKEN = process.env.BOT_TOKEN;
 
-console.log("server started!!!!")
-console.log(`le bot ${botName} est vivant!!!!`)
+bot.login(TOKEN);

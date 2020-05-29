@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/philippeBron/discord-bot/issues"
   },
-  "homepage": "https://github.com/philippeBron/discord-bot#readme"
+  "homepage": "https://github.com/philippeBron/discord-bot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }

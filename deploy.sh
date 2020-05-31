@@ -1,4 +1,5 @@
 #!/bin/bash
+echo "starting..."
 
 echo "get code updates"
 git pull

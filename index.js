@@ -9,9 +9,9 @@ bot.on('ready', function () {
 })
 
 bot.on('message', message => {
-    if (message.content === 'ping') {
+    if (message.content.toUpperCase() === 'PING') {
       message.reply('pong !')
-    } else if (message.content === 'lol') {
+    } else if (message.content.toUpperCase()=== 'LOL') {
         message.reply('ptdr')
     }
 })

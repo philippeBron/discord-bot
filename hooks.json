@@ -5,33 +5,16 @@
       "command-working-directory": ".",
       "trigger-rule":
       {
-        "and":
-        [
+        "match":
+        {
+          "type": "value",
+          "value": "refs/heads/master",
+          "parameter":
           {
-            "match":
-            {
-              "type": "payload-hash-sha1",
-              "secret": "269f10855df9d9640daf1d04bdbe7a667ff9b929",
-              "parameter":
-              {
-                "source": "header",
-                "name": "X-Hub-Signature"
-              }
-            }
-          },
-          {
-            "match":
-            {
-              "type": "value",
-              "value": "refs/heads/master",
-              "parameter":
-              {
-                "source": "payload",
-                "name": "ref"
-              }
-            }
+            "source": "payload",
+            "name": "ref"
           }
-        ]
+        }
       }
     }
   ]

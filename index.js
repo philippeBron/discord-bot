@@ -13,6 +13,8 @@ bot.on('message', message => {
       message.reply('pong !')
     } else if (message.content.toUpperCase()=== 'LOL') {
         message.reply('ptdr!')
+    } else if (message.content.toUpperCase()=== 'KKBOUDIN') {
+        message.reply(':poop:')
     }
 })
 

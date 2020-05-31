@@ -8,7 +8,7 @@
         "match":
         {
           "type": "payload-hash-sha1",
-          "secret": "269f10855df9d9640daf1d04bdbe7a667ff9b929",
+          "secret": "3f6c0bc25671febe5efb939b37bacb1bd61ecdfa",
           "parameter":
           {
             "source": "header",

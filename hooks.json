@@ -2,19 +2,6 @@
     {
       "id": "bot-webhook",
       "execute-command": "sh deploy.sh",
-      "command-working-directory": ".",
-      "trigger-rule":
-      {
-        "match":
-        {
-          "type": "payload-hash-sha1",
-          "secret": "3f6c0bc25671febe5efb939b37bacb1bd61ecdfa",
-          "parameter":
-          {
-            "source": "header",
-            "name": "X-Hub-Signature"
-          }
-        }
-      }
+      "command-working-directory": "."
     }
   ]

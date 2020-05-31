@@ -10,7 +10,7 @@ bot.on('ready', function () {
 
 bot.on('message', message => {
     if (message.content.toUpperCase() === 'PING') {
-      message.reply(':ping_pong:')
+      message.reply(':ping_pong: :ping_pong:')
     } else if (message.content.toUpperCase()=== 'LOL') {
         message.reply(':rofl: :rofl:')
     } else if (message.content.toUpperCase()=== 'KKBOUDIN') {

@@ -11,7 +11,7 @@
             "match":
             {
               "type": "payload-hash-sha1",
-              "secret": "TxwyAD7ncUvrM",
+              "secret": "269f10855df9d9640daf1d04bdbe7a667ff9b929",
               "parameter":
               {
                 "source": "header",

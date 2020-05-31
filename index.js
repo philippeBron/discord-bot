@@ -18,7 +18,7 @@ bot.on('message', message => {
     } else if (message.content.toUpperCase()=== 'WOW') {
         message.reply(':confetti_ball: :champagne_glass:')
     } else if (message.content.toUpperCase()=== 'FIFOU') {
-        message.reply(':man_superhero:')
+        message.reply(':man_superhero: ')
     }
 })
 

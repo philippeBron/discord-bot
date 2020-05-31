@@ -1,7 +1,7 @@
 [
     {
       "id": "bot-webhook",
-      "execute-command": "bash deploy.sh",
+      "execute-command": "./deploy.sh",
       "command-working-directory": "."
     }
   ]

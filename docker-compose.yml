@@ -3,6 +3,4 @@ services:
   bot:
     build: .
     container_name: discord-bot
-    volumes: 
-      - .:/usr/app
     command: npm start

@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "echo 'Test de lancement!' && exit 1",
+    "build": "echo 'build in progress!' && exit 1",
     "start": "node index.js"
   },
   "repository": {

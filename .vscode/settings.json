@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/de535c34-cb93-4ee8-82cc-25a8b98fe6a1/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/discord-tanguybot",
+    "appService.deploySubpath": "."
+}
